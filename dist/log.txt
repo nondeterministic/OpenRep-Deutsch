@@ -13,3 +13,21 @@ Error while reading the source file name: null for repertory:Kent, Homoeopatisch
 Reading the symptom tree file: D:\openrep_source_RC2\dist\kent_deutsch\kent_tree
 Error while reading the reference file name: null for repertory:Kent, Homoeopatisches Repertorium Exception = D:\openrep_source_RC2\dist\kent_deutsch\null (Das System kann die angegebene Datei nicht finden)
 Error while reading the source file name: null for repertory:Kent, Homoeopatisches Repertorium Exception = D:\openrep_source_RC2\dist\kent_deutsch\null (Das System kann die angegebene Datei nicht finden)
+==============================================================================
+
+Error while reading the icon files null
+Initializing
+Reading the repertory file: /home/baueran/Development/Java/OpenRep-Deutsch/dist/rep.rdx
+Processing the repertory descriptor file: /home/baueran/Development/Java/OpenRep-Deutsch/dist/kent_deutsch\kent.rd
+==============================================================================
+
+Error while reading the icon files null
+Initializing
+Reading the repertory file: /home/baueran/Development/Java/OpenRep-Deutsch/dist/rep.rdx
+Processing the repertory descriptor file: /home/baueran/Development/Java/OpenRep-Deutsch/dist/kent_deutsch\kent.rd
+Error while reading the file: /home/baueran/Development/Java/OpenRep-Deutsch/dist/kent_deutsch\kent.rd exception=/home/baueran/Development/Java/OpenRep-Deutsch/dist/kent_deutsch\kent.rd (No such file or directory)
+References file name not found in the repertory descriptor file: /home/baueran/Development/Java/OpenRep-Deutsch/dist/kent_deutsch/kent.rd
+Sources file name not found in the repertory descriptor file: /home/baueran/Development/Java/OpenRep-Deutsch/dist/kent_deutsch/kent.rd
+Reading the symptom tree file: /home/baueran/Development/Java/OpenRep-Deutsch/dist/kent_deutsch/kent_tree
+Error while reading the reference file name: null for repertory:Kent, Homoeopatisches Repertorium Exception = /home/baueran/Development/Java/OpenRep-Deutsch/dist/kent_deutsch/null (No such file or directory)
+Error while reading the source file name: null for repertory:Kent, Homoeopatisches Repertorium Exception = /home/baueran/Development/Java/OpenRep-Deutsch/dist/kent_deutsch/null (No such file or directory)
