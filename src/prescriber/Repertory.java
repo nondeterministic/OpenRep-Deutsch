@@ -17,13 +17,12 @@ This file is part of OpenRep FREE homeopathic software.
 
 package prescriber;
 
-import com.sun.org.apache.xalan.internal.xsltc.runtime.Hashtable;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Collections;
-
+import java.util.Hashtable;
 
 import javax.swing.JOptionPane;
 
@@ -76,9 +75,9 @@ public class Repertory {
     /** name of the symptom file - does not contain path*/    
     private String symptom_file_name = null;
     /** hashtable of symptoms */
-    private Hashtable symptom_hashtable = new Hashtable(80000);
+    private Hashtable<String, Integer> symptom_hashtable = new Hashtable<>(80000);
     /** hashtable of remedies */
-    private Hashtable remedy_hashtable = new Hashtable(1500);    
+    private Hashtable<String, Integer> remedy_hashtable = new Hashtable<>(1500);    
     /** name of the remsymptom file - does not contain path*/    
     private String remsymptom_file_name = null;
     /** name of the symptomtree file - does not contain path*/
@@ -1180,7 +1179,7 @@ public class Repertory {
         remedies.add(rem);
         if (!IsRemedyNameWellFormed(remname)) return false;
         if (!IsRemedySCWellFormed(remsc)) return false;
-        remedy_hashtable.put(remname, rem.id);
+        remedy_hashtable.put(remname, (int)rem.id);
         repertory_changes.CreateRemedy(GetRemedyIndex(remname), remname, remsc);
         repertory_changed = true;
         return true;
